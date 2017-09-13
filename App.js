@@ -25,16 +25,21 @@ export default class App extends React.Component {
               settings: { screen: SettingsScreen }
             },{
               swipeEnabled: false,
-              lazyLoad: true,
+              lazy: true,
               animationEnabled: false
             })
           }
         },{
           swipeEnabled: false,
-          lazyLoad: true,
+          lazy: true,
           animationEnabled: false
         })
       }
+    },{
+      navigationOptions: {
+        tabBarVisible: false
+      },
+      lazy: true
     });
 
     return (
