@@ -32,7 +32,11 @@ export default class App extends React.Component {
         },{
           swipeEnabled: false,
           lazy: true,
-          animationEnabled: false
+          animationEnabled: false,
+          tabBarPosition: 'bottom',
+          tabBarOptions: {
+            labelStyle: { fontSize: 12 }
+          }
         })
       }
     },{
